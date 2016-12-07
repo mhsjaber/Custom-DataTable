@@ -1,0 +1,45 @@
+﻿body {
+}
+
+.table > caption + thead > tr:first-child > th, 
+.table > colgroup + thead > tr:first-child > th, 
+.table > thead:first-child > tr:first-child > th,
+.table > tfoot > tr > th, 
+.table > caption + thead > tr:first-child > td, 
+.table > colgroup + thead > tr:first-child > td, 
+.table > thead:first-child > tr:first-child > td {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    color: white;
+    background-color: #FF5722;
+    font-size:93%
+}
+
+.paginate_button.active > a {
+    background-color: #FF5722 !important;
+    color: white !important;
+    border-color:  #FF6722 !important;
+}
+
+.paginate_button.active > a :hover{
+    background-color: white !important;
+    color: #FF5722 !important;
+    border-color:  #FF6722 !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #ffefe8 !important
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #ffe0d2 !important;
+}
+
+.pagination > li > a {
+    color: #FF5722 !important;
+}
+
+.pagination > li:active {
+    border-color: #FF5722 !important;
+}
+
